@@ -1,25 +1,63 @@
-#Assignment 5
+# Assignment 5
 
-###Team Information
----
-Timbuktu
+## Odd One Out
 
-Roles:
-1. Akshay Desai - Visual Designer
-2. Sandesh Paudel - Information Architect
-3. Austin Peng - Front End Coder
+### Team Information
 
+**Team Name : ** Timbuktu
+
+1. **Information Architect**: [Sandesh Paudel](http://github.com/sandeshnep)
+2. **Visual Designer:** [Akshay Desai](https://github.com/akshay27d)
+3. **Front-End Coder:** [Austin Peng](https://github.com/Azplap)
+
+### Domain
+
+University of Rochester students [Jack Dalton](http://csc174.org/assignment02/atlantis/jack.php), [Eric Feirouz](http://csc174.org/assignment02/seoul/Assignment-2-Flash-Website/ericfeirouz.php) and [Shawn Chen](http://csc174.org/assignment02/new-york/shawn.php), two with the same academic track (Mechanical Engineering major and Computer Science minor) and one who is pursuing Finance. 
 
 ### Ontology
----
-The website will be about three students Ming Yuan, Nan Xie and Shawn Chen. It will highlight similarities between Ming and Nan, leaving Shawn as the "odd one out".
 
-### Taxonomy
----
-It will highlight that Ming and Nan have similar academic background, in that they are both majoring in computer science, and both have prior professional experience. 
+* Each student has a name. 
 
-### Choreography
----
-This will be a two page website. The first page will contain Ming and Nan side by side, with their information. At the bottom right, there wil b a link that will say "Click to view the odd one out". This will link to Shawn's page containing his information.
+* Each student has a picture. 
 
-Source: [Original Website] (http://csc174.org/assignment02/new-york)
+* Each student has a major. 
+
+* Each student has an early life paragraph. 
+
+* Each student has a academic program paragraph. 
+
+* Each student has an interests paragraph. 
+
+  ### Taxonomy
+
+  *The headings are as follows:*
+
+  1. For all students:
+
+     * Student Name
+
+     * Early Life
+     * Academic Program
+     * Interests
+
+  2. For the odd one out (Shawn):
+     * Shawn is different
+
+  ### Choreography
+
+  This will be a two-page website. 
+
+  The first page will be split into two side-by-side sections, where we present the similar students (Jack and Eric). Each side will have one student with all there relevant information by the headings in **Taxonomy**. In addition, it will have the student picture. 
+
+  On the bottom-right of the first page, it will have a button that says "see the odd one out", which will lead to the second page. 
+
+  In the second page, we will have Shawn's information divided as specified in the **Taxonomy**. Following this will be a list of bullet points that make Shawn different from the other two students. 
+
+  On the bottom-right of the second page, there will be a button that says "see the similar duo", which will lead back to the first page. 
+
+  
+
+  
+
+
+
