@@ -4,7 +4,7 @@
 
 ### Team Information
 
-**Team Name : ** Timbuktu
+**Team Name :** Timbuktu
 
 1. **Information Architect**: [Sandesh Paudel](http://github.com/sandeshnep)
 2. **Visual Designer:** [Akshay Desai](https://github.com/akshay27d)
