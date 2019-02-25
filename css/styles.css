@@ -1,2 +1,130 @@
+/** {
+	border: 1px solid red;
+}*/
+/*************************************
+	Top part (Header and Nav)
+*************************************/
+.top {
+	display: flex;
+	flex-direction: row;
+	margin: 0 124px 0 124px;
+}
+
+nav {
+	align-items: center;
+}
+nav ul {
+	position: absolute;
+	right: 124px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float:left;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 24px;
+
+}
+
+/*************************************
+	Main Content
+*************************************/
+.similar-main {
+	display: flex;
+	flex-direction: row;
+
+}
+.sect {
+	margin: 12px;
+	flex-basis: 33%;
+	flex-grow: 0;
+}
+.sect-right {
+	margin-right: 124px;
+}
+.sect-left {
+	margin-left: 124px;
+}
+button {
+	margin-top: 124px;
+	border-radius: 12px;
+	background-color: red;
+	width: 100%;
+	height: 20%;
+}
+.sect-right li {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.link-to-odd {
+	margin-top: 124px;
+	border-radius: 12px;
+	background-color: red;
+}
+
+.diff-intro {
+	float: left;
+	margin: 0 24px 24px 12px;
+}
+.test {
+	padding-top:50px;
+}
+.bottom-section {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	width: 100%;
+}
+.bottom-section section, .bottom-section a {
+	flex-basis: 50%;
+	flex-grow: 0;
+}
+.bottom-section button {
+	margin: 0;
+	height: 100%;
+}
+.diff-main {
+	margin: 0 124px 0 124px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
