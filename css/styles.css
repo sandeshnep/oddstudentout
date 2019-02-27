@@ -43,7 +43,7 @@ nav li a {
 }
 
 /*************************************
-	Similar Duo 
+	Similar Duo
 *************************************/
 main {
 	margin: 0 124px 0 124px;
@@ -56,23 +56,32 @@ main {
 	margin-left: 236px;
 }
 
-section img {
-	float:left;
-}
 .sect {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
 }
-button {
+
+.button {
 	font-size: 24px;
 	border-radius: 12px;
 	background-color: #BD3D3A;
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	height: 210px;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 .sect section, .sect a {
 	flex-basis: 50%;
 	flex-grow: 0;
+
 }
 
 .sect li {
@@ -101,42 +110,37 @@ button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width:40%;
 }
 
-section {
-	padding: 40px;
-}
+
 
 .diffs {
 	margin-top: 40px;
 }
 
+/*****************************************
+	Elements
+*****************************************/
+figure {
+	padding:0;
+	display: inline-block;
+	float: left;
+}
 
+figure img{
+	width: 200px;
+}
 
+.center {
+	float:none;
+	width: 100%;
+	margin: auto;
+}
 
+section div{
+	width: 50%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+article {
+	margin-bottom: 40px;
+}

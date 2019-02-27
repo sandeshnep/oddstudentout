@@ -38,18 +38,21 @@ University of Rochester students [Jack Dalton](http://csc174.org/assignment02/at
    * Early Life
    * Academic Program
    * Interests
-
 2. For the odd one out (Shawn):
    * Shawn is different
+3. For the Similar Duo (Jack and Eric):
+   * What they have in common
 
 ### Choreography
 
-This will be a two-page website.
+This will be a three-page website.
 
-The first page will be split into two side-by-side sections, where we present the similar students (Jack and Eric). Each side will have one student with all there relevant information by the headings in **Taxonomy**. In addition, it will have the student picture.
+The index page will be of the z-pattern, and will have a brief description of similarities and differences. A button in the bottom right leads to the next page. 
 
-On the bottom-right of the first page, it will have a button that says "see the odd one out", which will lead to the second page.
+The next page will be of f-pattern and will be split into two sections, where we present the similar students (Jack and Eric). Each side will have one student with all there relevant information by the headings in **Taxonomy**. In addition, it will have the student picture.
 
-In the second page, we will have Shawn's information divided as specified in the **Taxonomy**. Following this will be a list of bullet points that make Shawn different from the other two students.
+On the bottom-right of this page, there will be a button that says "see the odd one out", which will lead to the second page.
+
+In the last page, we will utilize the f-pattern to have Shawn's information divided as specified in the **Taxonomy**. Following this will be a list of bullet points that make Shawn different from the other two students.
 
 On the bottom-right of the second page, there will be a button that says "see the similar duo", which will lead back to the first page.
