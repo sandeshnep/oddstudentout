@@ -1,21 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title> The Similar Duo </title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
+<?php include "inc/header.inc"?>
+<title> The Similar Duo </title>
 <body>
 
     <header class="top-bar">
       <h1>The Similar Duo</h1>
-    <nav>
-      <ul>
-        <li> <a href = "index.html">Home</a></li>
-          <li> <a href = "similar.html">Similar Duo</a></li>
-          <li> <a href = "odd.html">Odd One Out</a></li>
-      </ul>
-    </nav>
+      <?php include "inc/navbar.inc"?>
     </header>
 
   <main class="similar-main">
@@ -71,21 +60,18 @@
           <li>They go to the University of Rochester</li>
         </ul>
       </div>
-    <a href="odd.html" class="diff-button button">See The Odd One Out!</a>
+
+    <a href="odd.php" class="diff-button button">See The Odd One Out!</a>
       </section>
 
 
   </main>
-  <script type="text/javascript">
-    function toggleHide(which) {
-      console.log();
-      var focus = document.getElementsByClassName(which)[0];
-      if (focus.style.display === "block") {
-        focus.style.display = "none";
-      } else {
-        focus.style.display = "block";
-      }
-    }
-  </script>
+
+
+
+
 </body>
+
+<?php include "inc/scripts.inc"?>
+
 </html>

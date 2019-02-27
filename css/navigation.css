@@ -1,0 +1,29 @@
+.menu ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+
+.menu li{
+	border: none;
+	border-width: 1px;
+	background-color: white;
+}
+
+.menu a{
+	color: black;
+	padding: 15px;
+}
+
+.menu a.is-current{
+	background-color: #BD3D3A;
+	color: white;
+}
+
+
+@media (max-width: 600px) {
+	nav.menu ul, nav.menu li { display: block } 
+
+}

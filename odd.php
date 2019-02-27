@@ -1,21 +1,10 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title> The Odd One Out</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-  </head>
+<?php include "inc/header.inc"?>
+  <title> The Odd One Out</title>
   <body>
 
-    <header class="top-bar">>
+    <header class="top-bar">
         <h1>The Odd One Out</h1>
-      <nav>
-        <ul>
-          <li> <a href = "index.html">Home</a></li>
-          <li> <a href = "similar.html">Similar Duo</a></li>
-          <li> <a href = "odd.html">Odd One Out</a></li>
-        </ul>
-      </nav>
+        <?php include "inc/navbar.inc"?>
     </header>
 
     <main class="diff-main">
@@ -47,7 +36,7 @@
             <li> Shawn is NOT from the United States. </li>
           </ol>
         </div>
-      <a href="similar.html" class="diff-button button">See The Similar Duo!</a>
+      <a href="similar.php" class="diff-button button">See The Similar Duo!</a>
       </section>
 
     </main>
@@ -64,4 +53,8 @@
     }
   </script>
   </body>
+
+<?php include "inc/scripts.inc"?>
+
+
 </html>
