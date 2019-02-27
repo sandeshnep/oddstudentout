@@ -1,5 +1,6 @@
 <?php include "inc/header.inc"?>
 <title> The Similar Duo </title>
+</head>
 <body>
 
     <header class="top-bar">
@@ -67,11 +68,7 @@
 
   </main>
 
-
-
-
-</body>
-
 <?php include "inc/scripts.inc"?>
+</body>
 
 </html>

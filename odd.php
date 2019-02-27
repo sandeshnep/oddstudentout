@@ -1,5 +1,6 @@
 <?php include "inc/header.inc"?>
   <title> The Odd One Out</title>
+  </head>
   <body>
 
     <header class="top-bar">
@@ -41,20 +42,7 @@
 
     </main>
 
-    <script type="text/javascript">
-    function toggleHide(which) {
-      console.log();
-      var focus = document.getElementsByClassName(which)[0];
-      if (focus.style.display === "block") {
-        focus.style.display = "none";
-      } else {
-        focus.style.display = "block";
-      }
-    }
-  </script>
-  </body>
-
 <?php include "inc/scripts.inc"?>
-
+  </body>
 
 </html>

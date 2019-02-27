@@ -1,5 +1,6 @@
 <?php include "inc/header.inc"?>
   <title> The Odd One Out</title>
+  </head>
   <body>
 
       <header class="top-bar">
@@ -16,8 +17,6 @@
         <img class="center-image" src="images/shawn.jpg" alt="profile picture">
       </figure>
 
-    </article>
-
       <section class="sect">
         <div>
         <h3> Similarities and Differences </h3>
@@ -26,14 +25,11 @@
         </div>
         <a href="similar.php" class="button">See The Similar Duo!</a>
         </section>
-
+        
+    </article>
     </main>
 
-
-  </body>
-
 <?php include "inc/scripts.inc"?>
-
-
+</body>
 
 </html>
