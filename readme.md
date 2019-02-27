@@ -10,6 +10,8 @@
 2. **Visual Designer:** [Akshay Desai](https://github.com/akshay27d)
 3. **Front-End Coder:** [Austin Peng](https://github.com/Azplap)
 
+[Go to Website](http://csc174.org/assignment05/timbuktu)
+
 ### Domain
 
 University of Rochester students [Jack Dalton](http://csc174.org/assignment02/atlantis/jack.php), [Eric Feirouz](http://csc174.org/assignment02/seoul/Assignment-2-Flash-Website/ericfeirouz.php) and [Shawn Chen](http://csc174.org/assignment02/new-york/shawn.php), two with the same academic track (Mechanical Engineering major and Computer Science minor) and one who is pursuing Finance.
