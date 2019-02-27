@@ -7,7 +7,7 @@
       <?php include "inc/navbar.inc"?>
     </header>
 
-  <main class="similar-main">
+  <main>
     <article onclick="toggleHide('hide1')">
       <h2> Jack Dalton </h2>
       <figure>
@@ -61,7 +61,7 @@
         </ul>
       </div>
 
-    <a href="odd.php" class="diff-button button">See The Odd One Out!</a>
+    <a href="odd.php" class="button">See The Odd One Out!</a>
       </section>
 
 

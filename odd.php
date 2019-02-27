@@ -7,7 +7,7 @@
         <?php include "inc/navbar.inc"?>
     </header>
 
-    <main class="diff-main">
+    <main>
       <article onclick="toggleHide('hide1')">
       <h2> Shawn Chen </h2>
       <figure>
@@ -36,7 +36,7 @@
             <li> Shawn is NOT from the United States. </li>
           </ol>
         </div>
-      <a href="similar.php" class="diff-button button">See The Similar Duo!</a>
+      <a href="similar.php" class="button">See The Similar Duo!</a>
       </section>
 
     </main>

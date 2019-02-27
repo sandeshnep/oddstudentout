@@ -1,19 +1,61 @@
+/*************************************
+	Base
+*************************************/
 * {
-	/*border: 1px solid red;*/
 	line-height: 1.5em;
 	background-color: #F0EAD6;
 }
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+.button {
+	font-size: 24px;
+	border-radius: 12px;
+	background-color: #BD3D3A;
+	width: 50%;
+	height: 210px;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.sect li {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+figure img{
+	width: 200px;
+}
+
+.center {
+	float:none;
+	width: 100%;
+	margin: auto;
+}
+
+section div{
+	width: 50%;
+}
 /*************************************
-	Top part (Header and Nav)
+	Layout
 *************************************/
-.top-bar, .top, .bottom {
+main {
+	margin: 0 124px 0 124px;
+	display: grid;
+}
+.top-bar, .top {
 	display: flex;
 	flex-direction: row;
 	margin: 0 124px 0 124px;
-}
-
-.bottom {
-	margin:0;
 }
 
 nav {
@@ -32,23 +74,27 @@ nav ul {
 nav li {
 	float:left;
 }
-
-nav li a {
+.sect {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.center-image {
 	display: block;
-	text-align: center;
-	padding: 20px 16px;
-	text-decoration: none;
-	font-size: 24px;
-
+	margin-left: auto;
+	margin-right: auto;
+}
+figure {
+	padding:0;
+	display: inline-block;
+	float: left;
 }
 
 /*************************************
-	Similar Duo
+	State
 *************************************/
-main {
-	margin: 0 124px 0 124px;
-	display: grid;
-}
+
 .hide-to-start {
 	display: none;
 }
@@ -56,91 +102,4 @@ main {
 	margin-left: 236px;
 }
 
-.sect {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-end;
-}
 
-.button {
-	font-size: 24px;
-	border-radius: 12px;
-	background-color: #BD3D3A;
-	width: 50%;
-	height: 210px;
-	float: right;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-.sect section, .sect a {
-	flex-basis: 50%;
-	flex-grow: 0;
-
-}
-
-.sect li {
-	padding-top: 12px;
-	padding-bottom: 12px;
-}
-
-/*************************************
-	Odd One Out
-*************************************/
-.big {
-	flex-basis: 60%;
-	flex-grow: 0;
-}
-.small {
-	flex-basis: 40%;
-	flex-grow: 0;
-}
-.small ol {
-	padding-top: 50px;
-}
-/*.small button {
-	height: 50%;
-}*/
-.odd-center-image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-
-.diffs {
-	margin-top: 40px;
-}
-
-/*****************************************
-	Elements
-*****************************************/
-figure {
-	padding:0;
-	display: inline-block;
-	float: left;
-}
-
-figure img{
-	width: 200px;
-}
-
-.center {
-	float:none;
-	width: 100%;
-	margin: auto;
-}
-
-section div{
-	width: 50%;
-}
-
-article {
-	margin-bottom: 40px;
-}

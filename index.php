@@ -13,7 +13,7 @@
 
       <!-- CHANGE THIS FOR THE HOMEPAGE SLIDESHOW -->
       <figure class="center">
-        <img class="odd-center-image" src="images/shawn.jpg" alt="profile picture">
+        <img class="center-image" src="images/shawn.jpg" alt="profile picture">
       </figure>
 
     </article>
@@ -24,7 +24,7 @@
           <p>University of Rochester students Jack Dalton, Eric Feirouz and Shawn Chen, two with the same academic track (Mechanical Engineering major and Computer Science minor) and one who is pursuing Finance.
           </p>
         </div>
-        <a href="similar.php" class="diff-button button">See The Similar Duo!</a>
+        <a href="similar.php" class="button">See The Similar Duo!</a>
         </section>
 
     </main>
